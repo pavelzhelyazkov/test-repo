@@ -30,6 +30,11 @@ function Get-ChildItemToDepth {
 
 }
 
+Function sGet-FoldersToDepth() {
+
+
+}
+
 Function sGet-AllFolders($rootFolder) {
 
   $allFolders = Get-ChildItem -Recurse -Path "$rootFolder" `
